@@ -26,4 +26,7 @@
     <!--
     <Manager pathname="SESSIONS.ser" />
     -->
+
+<!-- [예제 5-14] content.xml 변경 사항  -->
+    <ResourceLink global="dbcp_myoracle" name="dbcp_myoracle" type="javax.sql.DataSource"/>
 </Context>
