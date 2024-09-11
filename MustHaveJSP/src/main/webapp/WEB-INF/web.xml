@@ -10,6 +10,21 @@
   <welcome-file>default.htm</welcome-file>
 </welcome-file-list>
 
+<context-param>
+<param-name>INIT_PARAM</param-name>
+<param-value>web.xml에 저장한초기값</param-value>  
+</context-param>
+
+<context-param>
+<param-name>NAVI_SIZE</param-name>
+<param-value>10</param-value>
+</context-param>
+
+<context-param>  
+<param-name>LIST_SIZE</param-name>
+<param-value>20</param-value>
+</context-param>
+
 <!-- 
 <context-param>
 	<param-name>JAVA</param-name>
